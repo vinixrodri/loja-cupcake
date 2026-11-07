@@ -80,5 +80,17 @@ function finalizarCompra() {
     window.open(url, '_blank');
 }
 
+// 6. Função para esvaziar o carrinho
+function limparCarrinho() {
+    if (carrinho.length === 0) {
+        alert("O carrinho já está vazio!");
+        return;
+    }
+    
+    carrinho = []; // Zera a lista
+    atualizarCarrinho(); // Manda a tela atualizar
+}
+
+
 // Inicia a loja ao abrir a página
 renderizarProdutos();

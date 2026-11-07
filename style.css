@@ -101,7 +101,7 @@ main {
 }
 
 .carrinho button:hover {
-    background-color: #128c7e;
+    background-color: #ff4c4c;
 }
 
 @media (max-width: 768px) {
@@ -112,3 +112,4 @@ main {
         margin-top: 20px;
     }
 }
+
